@@ -1,0 +1,67 @@
+/* About Me section */
+.About-Me p {
+    margin: 1.563rem 0;
+    font-size: 2.188rem;
+    background-color: #556480;
+    padding: 0.625rem;
+    text-align: center;
+    color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+/* Heading 2 */
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.563rem;
+    font-size: 3.125rem;
+    background-color: #556480;
+    color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+/* Vocals section */
+.vocals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15.625rem;
+    height: 15.625rem; /* Add height to make it a perfect circle */
+    border-radius: 50%;
+    margin: 2.188rem auto;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 920px) {
+    .About-Me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: scroll;
+    }
+
+    .vocals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: scroll;
+        width: 100%; /* Use full width */
+        height: auto; /* Remove fixed height */
+    }
+
+    /* If you have an element with the class "pic-container" in your HTML, apply this style */
+    /*.pic-container {
+        max-width: 100vw;
+    }*/
+}
