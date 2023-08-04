@@ -1,0 +1,40 @@
+nav {
+    text-align: right;
+  }
+  
+  /* Navigation list styles */
+  .nav-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navigation link styles */
+  .nav-bar li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .nav-bar li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .nav-bar li a:hover {
+    color: blue;
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    /* Reset text alignment to center for smaller screens */
+    nav {
+      text-align: center;
+    }
+  
+    /* Display the navigation links in a column */
+    .nav-bar li {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  }

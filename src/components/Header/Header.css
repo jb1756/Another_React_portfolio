@@ -1,0 +1,23 @@
+.header {
+    background-color: #556480;
+    padding: 1rem;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  /* Header heading styles */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    .header {
+      padding: 0.5rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
